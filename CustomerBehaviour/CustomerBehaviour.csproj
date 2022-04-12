@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerBehaviour.Application\CustomerBehaviour.Application.csproj" />
+    <ProjectReference Include="..\CustomerBehaviour.Domain.LinearRegression\CustomerBehaviour.Domain.LinearRegression.csproj" />
+    <ProjectReference Include="..\CustomerBehaviour.Interfaces\CustomerBehaviour.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
