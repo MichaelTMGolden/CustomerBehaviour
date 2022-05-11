@@ -18,9 +18,9 @@ namespace CustomerBehaviour
 
             var linear = container.Resolve<LinearRegression>();
             //Returns Normalized Customer Objects
-            //var customers = rawData.GetCustomersBehaviorSnapshots();
+            var customers = rawData.GetCustomersBehaviorSnapshots();
 
-            var linearResults = linear.GetLinearRegression();
+            linear.GetLinearRegression();
         }
     }
 }
